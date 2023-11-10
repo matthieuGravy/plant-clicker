@@ -1,0 +1,44 @@
+.score {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  padding: 0.15em 1em;
+  width: max-content;
+  margin: 0 auto;
+  border: 4px dashed rgba(114, 89, 51, 0.2);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.score::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  background-color: rgba(251, 255, 202, 0.2);
+}
+
+.score h2 {
+  display: flex;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  color: var(--bg-color-ground);
+  font-size: 1.75em;
+}
+
+.score h2 img {
+  width: 0.6em;
+  height: 0.6em;
+  align-self: center;
+}
+
+#bank {
+  padding-left: 0.2em;
+}

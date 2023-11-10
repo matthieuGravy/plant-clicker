@@ -1,0 +1,27 @@
+main {
+  display: relative;
+}
+
+#clickDisplay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.click {
+  position: absolute;
+  font-size: .85em;
+  color: var(--white);
+  text-shadow: 2px 0 var(--yellow), -2px 0 var(--yellow), 0 2px var(--yellow), 0 -2px var(--yellow),
+              2px 1px var(--yellow), -2px -1px var(--yellow), 2px -1px var(--yellow), -2px 1px var(--yellow);
+}
+
+.click-boost {
+  position: absolute;
+  font-size: 1.25em;
+  color: var(--yellow);
+  text-shadow: 2px 0 var(--white), -2px 0 var(--white), 0 2px var(--white), 0 -2px var(--white),
+              2px 1px var(--white), -2px -1px var(--white), 2px -1px var(--white), -2px 1px var(--white);
+}

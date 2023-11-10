@@ -1,0 +1,19 @@
+:root {
+  --bg-gradient: linear-gradient(180deg, #f7fbc8 0%, #f3f0dc 100%);
+  --bg-color-ground: #4d3717;
+  --bg-beige: rgba(251, 255, 202, 0.6);
+  --text-color: rgb(45, 29, 7);
+  --text-color-light: rgba(45, 29, 7, .6);
+  --text-color-info: #7e7c61;
+  --modal-overlay: #000000b3;
+  --white: #ffffff;
+  --white-60: #ffffff99;
+  --yellow: #d29626;
+  --pink: #e000a5;
+  --top-bar-font-size: 0.9em;
+  --score-panel: 0.8em;
+  --panel-h-font-size: 1em;
+  --big-font: 2em;
+  --big-font-light: 1.2em;
+  --radius-15: 15px;
+}
