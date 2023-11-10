@@ -1,0 +1,36 @@
+# Dossiers et fichiers spécifiques à Node.js (si vous n'utilisez pas Node.js, vous pouvez les supprimer)
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Dossiers spécifiques à un environnement de développement, généralement créés par des outils comme Webpack, Babel, etc. (ajustez en fonction de votre configuration)
+dist/
+build/
+.eslintcache/
+.idea/
+
+# Fichiers de sauvegarde et fichiers temporaires (ajustez en fonction de votre éditeur)
+*.swp
+*~
+.DS_Store
+
+# Les fichiers de sortie générés par votre éditeur (par exemple, les fichiers de sauvegarde de Visual Studio Code)
+.vscode/
+
+# Dossiers de sauvegarde et fichiers temporaires (ajustez en fonction de votre éditeur)
+.cache/
+
+
+# Si vous générez des fichiers HTML ou JavaScript minifiés, vous pouvez exclure les fichiers minifiés
+*.min.html
+*.min.js
+
+# Logs et fichiers temporaires (ajustez en fonction de votre configuration)
+log/
+logs/
+temp/
+tmp/
+
+# Fichiers de configuration spécifiques à votre IDE ou éditeur (ajustez en fonction de votre environnement)
+.editorconfig
