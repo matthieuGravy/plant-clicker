@@ -1,0 +1,36 @@
+@import "./assets/css/reset.css";
+@import "./assets/css/variables.css";
+@import "./assets/css/plant.css";
+@import "./assets/css/topbar.css";
+@import "./assets/css/score.css";
+@import "./assets/css/panel.css";
+@import "./assets/css/modal.css";
+@import "./assets/css/helpers.css";
+@import "./assets/css/clicks.css";
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/Nunito-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+body {
+  background: var(--bg-gradient);
+  overflow: hidden;
+}
+
+#dom-loader {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  z-index: 6;
+}
